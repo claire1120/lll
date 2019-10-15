@@ -17,3 +17,7 @@ class TestDisplay:
         print("hello")
         assert 1
 
+    @allure.step(title="密码2")
+    def test_mobile_display_input3(self):
+        print("hello")
+        assert 1
